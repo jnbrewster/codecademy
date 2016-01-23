@@ -48,7 +48,7 @@ cashRegister.scan('milk',1);
 cashRegister.scan('magazine',3);
 // Apply your staff discount by passing the 'me' object
 // to applyStaffDiscount
-cashRegister.applyStaffDiscount('me');
+cashRegister.applyStaffDiscount(me);
 
 
 // Show the total bill
