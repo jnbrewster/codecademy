@@ -8,11 +8,12 @@ Then use the new method to void the last item we scanned. Finally, scan only 3 o
 
 var cashRegister = {
     total:0,
+    quantity:0,
     lastTransactionAmount: 0,
     //Don't forget to add your property
     add: function(itemCost) {
-        this.total +=  itemCost;
-        this.lastTransactionAmount == itemCost;
+        this.total += itemCost;
+        this.lastTransactionAmount = itemCost;
     },
     scan: function(item,quantity) {
         switch (item) {
