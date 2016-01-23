@@ -41,8 +41,6 @@ var cashRegister = {
     applyStaffDiscount: function(employee) {
         this.total -= this.total * (employee.discountPercent / 100);
     }
-
-
 };
 
 cashRegister.scan('eggs',1);
